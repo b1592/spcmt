@@ -71,6 +71,32 @@ Discussion of mean-field methods for large parameter systems \\
 
 \end{frame}
 
+\begin{frame}[t]\frametitle{Quantum dots}
+
+What is a quantum dot?\\
+~\\
+
+\begin{tikzpicture}
+
+\draw (0,0) -- (2,0) -- (2,1) -- (0,1);
+\draw[red, ->,decorate,decoration={snake,amplitude=.4mm,segment length=2mm}] (2.25,0.5) -- (3.25,0.5);
+\draw[dashed] (4,0.5) circle (0.5);
+\draw[red, ->,decorate,decoration={snake,amplitude=.4mm,segment length=2mm}] (4.75,0.5) -- (5.75,0.5);
+\draw (8,0) -- (6,0) -- (6,1) -- (8,1);
+
+\end{tikzpicture}
+~\\
+~\\
+~\\
+Controlled tunneling of electrons through the dot:\\
+- Input\\
+- Coulomb blockade\\
+- Spin (Pauli) blockade\\
+- Readout
+
+\end{frame}
+
+
 \begin{frame}[t]\frametitle{Coulomb blockade}
 Action
 \begin{align*}
@@ -198,6 +224,29 @@ G_{\alpha} &= \frac{1}{Z} \int D(\bar{\psi}, \psi) e^{-\Cline[purple]{S_{free}[\
   \begin{align*}
     \hat{N} \equiv \sum_{\alpha} a_{\alpha}^{\dagger} a_{\alpha}
   \end{align*}
+
+\end{frame}
+
+\begin{frame}[t]\frametitle{Density of states}
+  Filling in the solutions, we can calculate the tunneling density of states by
+  \begin{align*}
+    \nu(\epsilon) = - \frac{1}{\pi} Im~tr~G
+  \end{align*}
+  After some calculations, we obtain
+  \begin{align*}
+    \nu(\epsilon) = \nu_0(\epsilon - E_C ~ sgn(\epsilon)) ~ \Theta(|\epsilon| - E_C)
+  \end{align*}
+  Where $\nu_0$ is the density of states (shifted by the energy cost) of the non-interacting systems and $\Theta$ a step function.\\
+  ~\\
+  This means that there is an energy gap of size $2 E_C$ around the Fermi energy
+
+
+\end{frame}
+
+\begin{frame}[t]\frametitle{Conclusions}
+  The Coulomb blockade prevents electrons of certain energies to tunnel into the dot. \\
+  ~\\
+  If it has energy $\epsilon > E_C$ it is allowed to tunnel
 
 
 \end{frame}
