@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1456072419 "presentatie1.tex" "presentatie1.pdf" "presentatie1" 1456072421
+["pdflatex"] 1456130365 "presentatie1.tex" "presentatie1.pdf" "presentatie1" 1456130367
   "/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/jknappen/ec/ecss1095.tfm" 1136768653 3584 8ece407347b270c252c46fdfaef5a9ef ""
@@ -21,6 +21,7 @@
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm" 1254269338 11176 53ebf7a171df1f9447b387b178768bb5 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm" 1254269338 11232 955a7245396175d9219648eadc654ac9 ""
+  "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm" 1254269338 11252 57c8b53a3aeebba8c17658d4221d47ec ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm" 1254269338 11180 705632ac6b4fb69204ad970192cdf4e5 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm" 1254269338 11316 701b7748a8cc1abea04b4bcc027674ae ""
   "/usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm" 1254269338 11312 6908420b41cb9ad797e206f7391721ea ""
@@ -36,6 +37,7 @@
   "/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb" 1248133631 30273 87a352d78b6810ae5cfdc68d2fb827b2 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10.pfb" 1255129361 97408 f595704ec2a07246c2d6f7b602587452 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss12.pfb" 1255129361 96107 daf52840b555e3b38f9679b629b5e2df ""
+  "/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss17.pfb" 1255129361 97155 77b0a2ea02ee9c950117adae5f41f9c9 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss8.pfb" 1255129361 94400 e33ecfb646a9f148e2e53da01a9168fe ""
   "/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsso10.pfb" 1255129361 108953 1f7b36ba493bc956ac3c5eab8852ab76 ""
   "/usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsso8.pfb" 1255129361 106860 a773e4958b589eadcc5b01a914624508 ""
@@ -258,14 +260,15 @@
   "/usr/local/texlive/2012/texmf-var/web2c/pdftex/pdflatex.fmt" 1341108725 3691572 80746d7cec090b0770bc87079bef471d ""
   "/usr/local/texlive/2012/texmf.cnf" 1341108668 572 7ea7194897937febeb63145e1c3a1f03 ""
   "/usr/local/texlive/2012/texmf/web2c/texmf.cnf" 1336865692 31299 729e216d9b945005c0d4b079c0500bc9 ""
-  "presentatie1.aux" 1456072421 2547 f7541e5fe608e3bd4fd070f3a287779f ""
-  "presentatie1.nav" 1456072421 1241 2845838f8888b9ec0c4e95bbb0abd740 ""
-  "presentatie1.out" 1456072421 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "presentatie1.tex" 1456072418 8740 b5e0d283e6ce005c1a1e3f338daee754 ""
+  "plt_fd.pdf" 1456081974 18570 ce1ca6a2b1fdf27d7448f2276cbd1968 ""
+  "presentatie1.aux" 1456130367 2805 b5f89b8d8d8955d4e660f6d57a191f88 ""
+  "presentatie1.nav" 1456130367 1427 6da70df58051538d10a7a09bb527e1e3 ""
+  "presentatie1.out" 1456130366 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "presentatie1.tex" 1456130364 8788 1f0d93214c83c06260388b88d9ac9ddc ""
   (generated)
   "presentatie1.nav"
-  "presentatie1.snm"
   "presentatie1.out"
+  "presentatie1.snm"
   "presentatie1.log"
   "presentatie1.toc"
   "presentatie1.aux"

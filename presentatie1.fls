@@ -357,6 +357,10 @@ INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libr
 INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymindmap.code.tex
 INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
 INPUT /usr/local/texlive/2012/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss10.tfm
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -385,6 +389,9 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm
+INPUT plt_fd.pdf
+INPUT ./plt_fd.pdf
+INPUT ./plt_fd.pdf
 OUTPUT presentatie1.nav
 OUTPUT presentatie1.toc
 OUTPUT presentatie1.snm
@@ -404,6 +411,7 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss12.pfb
+INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss8.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsso10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsso8.pfb

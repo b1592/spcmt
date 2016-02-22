@@ -48,26 +48,13 @@
 
 \begin{frame}[t]\frametitle{~}
 
-  {\LARGE{ Title }}\\ {\large{Subtitle}}\\
+  {\LARGE{ Coulomb Blockade in Quantum Dots }}\\ {\large{Mean-field method}}\\
   \vspace{20pt}
-  {\small{Article \textit{article title }}}\\
+  {\small{Ch. 6 from \textit{Condensed Matter Field Theory - Altland and Simons }}}\\
   \vspace{60pt}
   Geert Kapteijns, Boris Ponsioen\\
   ~\\
 
-
-\end{frame}
-
-\begin{frame}[t]\frametitle{Contents}
-
-Discussion of mean-field methods for large parameter systems \\
-  ~\\
-  - Coulomb blockade \\
-  ~\\
-  - Decoupling through Hubbard-Stratonovich transformation \\
-  - Integrate over fermionic degrees of freedom \\
-  - Stationary phase approximation of auxiliary field \\
-  - Effective action
 
 \end{frame}
 
@@ -96,6 +83,18 @@ Controlled tunneling of electrons through the dot:\\
 
 \end{frame}
 
+\begin{frame}[t]\frametitle{Contents}
+
+Quantum dot \\
+  - Coulomb blockade \\
+  ~\\
+Mean-field method for these and similar actions\\
+  - Decoupling through Hubbard-Stratonovich transformation \\
+  - Integrate over fermionic degrees of freedom \\
+  - Stationary phase approximation of auxiliary field \\
+  - Effective action
+
+\end{frame}
 
 \begin{frame}[t]\frametitle{Coulomb blockade}
 Action
@@ -118,7 +117,7 @@ e^{-E_C (\sum_{\alpha} \bar{\Psi}_{\alpha} \Psi_{\alpha} - N_0)^2 }
 \begin{frame}[t]\frametitle{Coulomb blockade}
 This leads to
 \begin{align*}
-G_{\alpha} &= \frac{1}{Z} \int D(\bar{\psi}, \psi) e^{-\Cline[purple]{S_{free}[\bar{\psi}, \psi]}-\Cline[green]{S_{int}[\bar{\psi}, \psi]}}\bar{\psi}_{\alpha} \psi_{\alpha}\\
+&G_{\alpha} = \frac{1}{Z} \int D(\bar{\psi}, \psi) e^{-\Cline[purple]{S_{free}[\bar{\psi}, \psi]}-\Cline[green]{S_{int}[\bar{\psi}, \psi]}}\bar{\psi}_{\alpha} \psi_{\alpha}\\
   &= \frac{1}{Z} \int D(\bar{\psi}, \psi) e^{-\Cline[purple]{\sum_{\alpha} \bar{\psi}_{\alpha} (\partial_{\tau} + \epsilon_{\alpha} - \mu) \psi_{\alpha}}
  - \Cline[green]{E_C (\sum_{\alpha} \bar{\Psi}_{\alpha} \Psi_{\alpha} - N_0)^2}} \bar{\psi}_{\alpha} \psi_{\alpha} \\
  &= \frac{1}{Z} \int DV ~ e^{-S[V]} \int D(\bar{\psi}, \psi) e^{-\Cline[purple]{\sum_{\alpha} \bar{\psi}_{\alpha} (\partial_{\tau} + \epsilon_{\alpha} - \mu \textcolor{green}{+ i V}) \psi_{\alpha}
@@ -169,7 +168,7 @@ G_{\alpha} &= \frac{1}{Z} \int D(\bar{\psi}, \psi) e^{-\Cline[purple]{S_{free}[\
   In our action, we can write
   \begin{align*}
     G(\tau) &= \frac{1}{Z} \int DV ~ e^{-S[V]} \int D(\bar{\psi}, \psi) ~ e^{-i \int^{\tau} d\tau' (V(\tau') - V_0)} ~ e^{-S^{V_0}[\bar{\psi}, \psi]} ~ \bar{\psi}_{\alpha} \psi_{\alpha}\\
-    &= \frac{1}{Z} \int DV ~ e^{-S[V]} \int D(\bar{\psi}, \psi) ~ e^{-i \int^{\tau} d\tau' (V(\tau') - V_0)} Z^{V_0} G_{\alpha}^{V_0}\\
+    &= \frac{1}{Z} \int DV ~ e^{-S[V]}  ~ e^{-i \int^{\tau} d\tau' (V(\tau') - V_0)} Z^{V_0} G_{\alpha}^{V_0}\\
     &= \frac{F(\tau)}{Z} \int dV_0 ~ e^{-S[V_0]} Z^{V_0} G_{\alpha}^{V_0}
   \end{align*}
   Where
@@ -248,7 +247,7 @@ G_{\alpha} &= \frac{1}{Z} \int D(\bar{\psi}, \psi) e^{-\Cline[purple]{S_{free}[\
   ~\\
   If it has energy $\epsilon > E_C$ it is allowed to tunnel
 
-
+  \includegraphics[scale=0.35]{plt_fd}
 \end{frame}
 
 \end{document}
